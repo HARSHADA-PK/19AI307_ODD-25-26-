@@ -2,31 +2,47 @@
 
 ## QUESTION:
 
+Write a Java program to calculate the power of a given number.
+
 
 ## AIM:
-
+To write a Java program to compute the power of a number using the Math.pow() function in Java.
 
 ## ALGORITHM :
 1.	Start the program.
 2.	Import the necessary package 'java.util'
-3.	
-
-
-
-
+3.	Read the base value from the user.
+4. Read the exponent value from the user.
+5. Use the Math.pow(base, exponent) function to calculate the power.
+6. Display the result.
+7. Stop the program.
 
 ## PROGRAM:
- ```
+```
 /*
-Program to implement a Strings and Math Function using Java
-Developed by: 
-RegisterNumber:  
+Program to implement a conditional statement using Java
+Developed by: Harshada P K
+RegisterNumber:  212224060097
 */
 ```
 
 ## SOURCE CODE:
 
+```
+import java.util.*;
+public class main
+{
+    public static void main(String[] args)
+    {
+        Scanner input=new Scanner(System.in);
+        double b=input.nextDouble();
+        double p=input.nextDouble();
+        double res=Math.pow(b,p);
+        System.out.println(b+" raised to the power of "+p+" is: "+res);
+    }
+}
 
+```
 
 
 
@@ -34,6 +50,8 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![Screenshot 2025-11-17 002442](https://github.com/ABINAYA-27-76/19AI307_ODD-25-26-/blob/48e3a0e8c1eaa81a22e732def7d6ac38d8c6d9ba/19AI307_JAVA(25-26)/Module-01/DAY-5/Screenshot%202025-11-17%20002442.png)
 
 ## RESULT:
+Thus, the Java program to calculate the power of a given number using Math function was successfully executed.
+
